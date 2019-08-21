@@ -25,4 +25,7 @@ def find_the_cheese(strings)# code an argument here
   cheese_types.each{|cheese|
     if strings.include?(cheese)
       return cheese
+    end
+  }
+  return nil
 end
